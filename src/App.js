@@ -1,5 +1,7 @@
 function Square({ value }) {
-  return <button className="square">{value}</button>;
+   function handleClick() {
+    console.log('clicked!');
+  }
 }
 
 export default function Board() {
